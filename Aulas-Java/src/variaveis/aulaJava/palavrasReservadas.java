@@ -7,13 +7,16 @@ public class palavrasReservadas {
 		
 		/*Valor inicial declarando ou não, é zero.*/
 		
-		int numero;
+		/*Estava aparecendo pq o valor do numero 1 não estava
+		 * declarado e nem sendo utilizado*/
+		
+		int numero = 1;
 		
 		int numero2 = 0;
 		
 		System.out.println(numero2);
 		
-		
+		System.out.println(numero);
 		
 	}
 	
