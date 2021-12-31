@@ -4,6 +4,8 @@ public class operacoesLogicas {
 
 	public static void main(String[] args) {
 
+		/*Condições Lógicas com IF e ELSE*/
+		
 		int mediaAluno = 69;
 		String nome = "Caio";
 
@@ -31,6 +33,15 @@ public class operacoesLogicas {
 		} else {
 			System.out.println("Aluno REPROVADO, média: " + media);
 		}
-
-	}
+		
+		/*Operadores Ternários, são usados para micro validações, coisa simples, de uma linha.*/
+		
+		String resultadoFinal;
+		
+		resultadoFinal = media >= 70 ? "Aluno Aprovado" : "Aluno Reprovado"; /*Lê-se: A média final
+		do aluno é igual ou mair que 70? Se sim, imprima na tela "Aluno Aprovado", se não (:), imprima
+		"Aluno Reprovado"*/
+		
+		System.out.println(resultadoFinal);
+		}
 }
