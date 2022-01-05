@@ -1,0 +1,62 @@
+	
+	Introdução a Orientação a Objetos - OO ou POO.
+	
+			Modelo de programação baseada na interação e composição entre
+			unidades diferentes, os chamados 'objetos'. Melhor forma de representar 
+			o mundo real dentro da programção.
+			
+			Classe e Objeto são basicamente a mesma coisa, a diferença é que
+			classe vem primeiro, e se torna objeto na memória do sistema do computador.
+			
+			Uma classe ou objeto tem características próprias, os chamados 'atributos', e 
+			determinados comportamentos. E geralmente são definidos como subtantivo abstrato
+			de amplo espectro.
+			
+			Isso quer dizer que, se ouver duas frutas, uma laranja e uma maçã, ao invés de 
+			criar duas classes, uma para cada, cria-se apenas uma classe, "fruta", e adicona
+			as características, como nome, cor, sabor, cheiro, tamanho, etc.
+			
+			Na classe 'pessoa' existem os atributos: idade, tamanho, peso, cor de pele, etc.
+			E os comportamentos, chamdados de métodos, que são: correr, andar, falar, ouvir, trabalhar etc.
+
+
+	A ideia de atributo em um objeto no JAVA
+	
+			public class Carro {
+				
+				String nome;
+				int velocidade;
+				String cor;
+				String marca;
+				boolean importado;
+				double valor;			
+			
+			}
+			
+	O que um objeto em Java faz?
+	
+			O principal objetivo de um objeto é carregar as informações
+			agrupadas, processar, gravar e exibir.
+			
+	
+			
+			
+	Paradigma Procedural (estrutural) VS Orientada a Objetos.
+	
+			
+			POO			    						   PE
+		
+		  Métodos							Procedimentos e funções
+	Intâncias de variáveis							Variáveis
+		 Mensagens						Chamada a procedimentos e funções
+		  Classes							Dados definidos pelo usuário	
+		  Herança								Não há correlação
+		Polimorfismo							Não há correlação
+
+			O POO nasceu para corrigir os problemas que o modelo
+			estrutural apresenta. Ele o faz atravéz da ideia de classificar,
+			organizar, abstrair, encapsular e reutilizar as representações.
+
+
+
+	
